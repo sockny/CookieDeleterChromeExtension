@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Cookie and Site Data Deleter",
+    "version": "1.0.0",
+    "description": "Deletes cookies and site data for the current page.",
+    "permissions": [
+      "contextMenus",
+      "browsingData",
+      "activeTab",
+      "notifications",
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
