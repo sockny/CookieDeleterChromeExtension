@@ -2,7 +2,7 @@ chrome.runtime.onInstalled.addListener(() => {
     // Csak a .gov.hu domainekhez adunk hozzá menüpontot
     chrome.contextMenus.create({
         id: "deleteSiteData",
-        title: "Delete Cookies and Site Data",
+        title: "Sütik és webhely adatok törlése",
         contexts: ["all"],
         documentUrlPatterns: ["*://*.gov.hu/*"]
     });
@@ -29,8 +29,8 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
                 chrome.notifications.create({
                     type: "basic",
                     iconUrl: "icon.png",
-                    title: "Cookie and Site Data Deleter",
-                    message: `Cookies and site data deleted for ${origin}`
+                    title: "Süti és webhely adat törlő", //Cookie and Site Data Deleter
+                    message: `Sütik és webhely adatok törölve a következőhöz: ${origin}` //Cookies and site data deleted for 
                 }, function(notificationId) {
                     if (chrome.runtime.lastError) {
                         console.error(chrome.runtime.lastError);
