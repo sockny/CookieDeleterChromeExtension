@@ -41,16 +41,16 @@ After deletion, the extension will automatically redirect you to the "Ügyfélka
 
 1. Töltsd le a Bővítmény Fájlokat:
 
-   - Szerezz be egy ZIP fájlt, amely tartalmazza a bővítmény fájljait, beleértve a manifest.json, background.js és icon.png fájlokat.
+   - Töltsd le ez a repót ZIP fájlként, amely tartalmazza a bővítmény fájljait, beleértve a manifest.json, background.js és icon.png fájlokat.
 2. Nyisd meg a Chrome Bővítmények Oldalt:
 
-   - Nyisd meg a Google Chrome böngészőt, és navigálj a Chrome bővítmények oldalra a chrome://extensions/ címen.
+   - Nyisd meg a Google Chrome böngészőt, és navigálj a Chrome bővítmények oldalra a chrome://extensions/ címre.
 3. Kapcsold be a Fejlesztői Módot:
    - Az oldal jobb felső sarkában kapcsold be a "Fejlesztői mód" kapcsolót.
 4. Töltsd be a Bővítményt:
 
    - Kattints a "Bővítmény betöltése" gombra.
-   - A fájl kiválasztása párbeszédpanelen válaszd ki azt a mappát, ahol elmentetted a bővítmény fájlokat.
+   - A fájl kiválasztása párbeszédpanelen válaszd ki azt a mappát, ahová elmentetted a bővítmény fájlokat.
 5. Ellenőrizd a Telepítést:
 
    - A bővítmény mostantól megjelenik az telepített bővítmények listájában.
